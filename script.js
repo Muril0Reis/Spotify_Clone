@@ -8,7 +8,7 @@ function removeAccents(str) {
 }
 
 function requestApi(searchTerm) {
-    const url = `http://localhost:3000/artists`;
+    const url = `https://spotify-clone-gbcf.onrender.com`;
     fetch(url)
         .then((response) => response.json())
         .then((result) => {
