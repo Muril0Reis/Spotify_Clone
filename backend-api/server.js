@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('api-artists/artists.json'); // Ajuste o caminho se necessário
+const router = jsonServer.router('backend-api\artists.json'); // Ajuste o caminho se necessário
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
